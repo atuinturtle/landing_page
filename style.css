@@ -77,3 +77,31 @@ body {
 .first button {
     font-weight: bold;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 38px;
+}
+
+.second .random_infos {
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.second .random_infos .random_info {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second .random_infos .random_info img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+}
